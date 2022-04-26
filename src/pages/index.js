@@ -39,7 +39,7 @@ const IndexPage = () => (
         <div class="grid grid-cols-1 md:grid-cols-3 gap-7 mt-16 md:mt-28">
           <div class="bg-slate-800 rounded-lg overflow-hidden hover:scale-105 ease-out duration-200 font-righteous">
             <div class="m-5 mb-4 md:mb-5">
-              <div className="flex flex-nowrap md:flex-wrap">
+              <div className="flex gap-1 flex-nowrap md:flex-wrap">
                 <div class=" mt-5 md:mt-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ const IndexPage = () => (
           </div>
           <div class="bg-slate-800 rounded-lg overflow-hidden hover:scale-105 ease-out duration-200 font-righteous">
             <div class="m-5 mb-4 md:mb-5">
-              <div className="flex flex-nowrap md:flex-wrap">
+              <div className="flex gap-1 flex-nowrap md:flex-wrap">
                 <div class=" mt-5 md:mt-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -84,9 +84,9 @@ const IndexPage = () => (
                     />
                   </svg>
                 </div>
-                <div class="mt-4 md:mt-0">
+                <div class="mt-3 md:mt-0">
                   <p class="text-base leading-relaxed text-white text-center">
-                    <a className="text-blue-800">Zeddpay</a> enables users
+                    <a className="text-blue-800">Zeddpay</a> enables it's users
                     easily make purchases with airtime.
                   </p>
                 </div>
@@ -95,7 +95,7 @@ const IndexPage = () => (
           </div>
           <div class="bg-slate-800 rounded-lg overflow-hidden hover:scale-105 ease-out duration-200 font-righteous">
             <div class="m-5 mb-4 md:mb-5">
-              <div className="flex flex-nowrap md:flex-wrap">
+              <div className="flex gap-1 flex-nowrap md:flex-wrap">
                 <div class=" mt-5 md:mt-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
