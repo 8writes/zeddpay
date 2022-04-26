@@ -58,7 +58,7 @@ const IndexPage = () => (
                 </div>
                 <div class="mt-3 md:mt-0">
                   <p class="text-base leading-relaxed text-white text-center">
-                    <a className="text-blue-700">Zeddpay</a> converts your
+                    <a className="text-blue-700">Zeddpay</a> converts users
                     airtime to zeddcoin within minutes.
                   </p>
                 </div>
@@ -115,7 +115,7 @@ const IndexPage = () => (
 
                 <div class="mt-3 md:mt-0">
                   <p class="text-base leading-relaxed text-white text-center">
-                    <a className="text-blue-800">Zeddpay</a> offers a secure and
+                    <a className="text-blue-800">Zeddpay</a> offers a 100% secure and
                     safe transaction process.
                   </p>
                 </div>
