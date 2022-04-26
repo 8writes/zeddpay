@@ -17,7 +17,9 @@ const UsingDSG = () => (
       .
     </p>
     <Link to="/">Go back to the homepage</Link>
+    
   </Layout>
 )
+
 
 export default UsingDSG
