@@ -98,15 +98,27 @@ const Header = ({ siteTitle }) => (
                   </svg>
                 </div>
               </div>
-              <div className="font-righteous text-blue-900 text-base ml-10 mb-16 mt-16">
+              <div className=" ml-10 mb-16 mt-16">
                 <li>
-                  <a href="#">About</a>
+                  <Link to="/">
+                <button className="bg-inherit font-poppins  text-blue-900  w-32 h-12 text-xl">
+                  About
+                </button>
+              </Link>
                 </li>
                 <li>
-                  <a href="#">Faq</a>
+                  <Link to="/">
+                <button className="bg-inherit font-poppins  text-blue-900  w-32 h-12 text-xl">
+                 Faq
+                </button>
+              </Link>
                 </li>
                 <li>
-                  <a href="#">Contact Us</a>
+                <Link to="/">
+                <button className="bg-inherit font-poppins  text-blue-900  w-32 h-12 text-xl">
+                 Contact Us
+                </button>
+              </Link>
                 </li>
               </div>
               <div className="flex flex-cols-2 justify-between mt-5 ml-10">
