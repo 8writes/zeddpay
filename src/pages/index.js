@@ -1,17 +1,19 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import Zedappimg from "../images/zedapp.png"
+import Stepiii from "../images/step3.png"
+import Stepii from "../images/step2.png"
+import Stepi from "../images/step1.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
 const IndexPage = () => (
   <Layout>
     <div>
       <div className="main">
         <Seo title="Home" />
 
-        <div class="grid grid-cols-1  md:grid-cols-2 gap-7 mt-7  md:mt-20 lg:mt-36">
-          <div className=" mt-28 text-center md:text-left ml-0 md:ml-5 lg:ml-0">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 mt-7  md:mt-20 lg:mt-36">
+          <div className=" mt-32 text-center md:text-left ml-0 md:ml-5 lg:ml-0">
             <h1 className="font-poppins text-4xl md:text-4xl lg:text-5xl leading-normal text-blue-900">
               Make payments with your airtime!
             </h1>
@@ -31,15 +33,15 @@ const IndexPage = () => (
             </div>
           </div>
 
-          <div className="zedapp bg-blue-900 rounded-full mt-0 md:mt-20 lg:mt-0 md:h-4/5 lg:h-full">
+          <div className="zedapp bg-blue-900 rounded-full mt-16 md:mt-20 lg:mt-0 h-fit">
             <img src={Zedappimg} alt="Mobile phone showing Zeddapp" />
           </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-7 mt-16 md:mt-28">
-          <div class="bg-slate-800 rounded-lg overflow-hidden hover:scale-105 ease-out duration-200 font-righteous">
-            <div class="m-5 mb-4 md:mb-5">
-              <div className="flex gap-1 flex-nowrap md:flex-wrap">
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-7 mt-28 md:mt-40">
+          <div class="bg-slate-800 rounded-lg overflow-hidden font-righteous">
+            <div class="m-5 mb-4 md:mb-3 lg:mb-5">
+              <div className="flex flex-nowrap md:flex-wrap">
                 <div class=" mt-5 md:mt-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -56,18 +58,18 @@ const IndexPage = () => (
                     />
                   </svg>
                 </div>
-                <div class="mt-3 md:mt-0">
+                <div class="mt-3 ml-4 lg:ml-0 md:ml-5">
                   <p class="text-base leading-relaxed text-white text-center">
-                    <a className="text-blue-700">Zeddpay</a> converts users
+                    <a className="text-blue-700">Zeddpay</a> converts your
                     airtime to zeddcoin within minutes.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="bg-slate-800 rounded-lg overflow-hidden hover:scale-105 ease-out duration-200 font-righteous">
-            <div class="m-5 mb-4 md:mb-5">
-              <div className="flex gap-1 flex-nowrap md:flex-wrap">
+          <div class="bg-slate-800 rounded-lg overflow-hidden font-righteous">
+            <div class="m-5 mb-4 md:mb-3 lg:mb-5">
+              <div className="flex flex-nowrap md:flex-wrap">
                 <div class=" mt-5 md:mt-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +86,7 @@ const IndexPage = () => (
                     />
                   </svg>
                 </div>
-                <div class="mt-3 md:mt-0">
+                <div class="mt-3 ml-3 lg:ml-0 md:ml-5">
                   <p class="text-base leading-relaxed text-white text-center">
                     <a className="text-blue-800">Zeddpay</a> enables it's users
                     easily make purchases with airtime.
@@ -93,9 +95,9 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
-          <div class="bg-slate-800 rounded-lg overflow-hidden hover:scale-105 ease-out duration-200 font-righteous">
-            <div class="m-5 mb-4 md:mb-5">
-              <div className="flex gap-1 flex-nowrap md:flex-wrap">
+          <div class="bg-slate-800 rounded-lg overflow-hidden font-righteous">
+            <div class="m-5 mb-4 md:mb-3 lg:mb-5">
+              <div className="flex flex-nowrap md:flex-wrap">
                 <div class=" mt-5 md:mt-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -113,25 +115,154 @@ const IndexPage = () => (
                   </svg>
                 </div>
 
-                <div class="mt-3 md:mt-0">
+                <div class="mt-3 ml-4 lg:ml-0 md:ml-5">
                   <p class="text-base leading-relaxed text-white text-center">
-                    <a className="text-blue-800">Zeddpay</a> offers a 100% secure and
-                    safe transaction process.
+                    <a className="text-blue-800">Zeddpay</a> offers a 100%
+                    secure and safe transaction process.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <div className="text-center mt-28 md:mt-36">
+          <h1 className="font-poppins text-3xl md:text-5xl lg:text-3xl leading-normal text-blue-900">
+            Get started in 3 easy steps.
+          </h1>
+          <h2 className="text-sm md:text-2xl lg:text-base leading-normal">
+            How to convert your Airtime to Zeddcoin and easily make purchases on
+            Zeddpay!
+          </h2>
+        </div>
+
+        <div className="sliderc">
+          <div class="slider mt-10">
+            <div>
+              <div className="child bg-blue-900 rounded-lg lg:hover:scale-105 ease-out duration-200">
+                <div className="text-center mt-5">
+                  <h1 className="text-3xl text-white md:text-4xl lg:text-2xl leading-normal font-poppins">
+                    STEP 1
+                  </h1>
+                </div>
+                <div className=" ">
+                  <div className="zedapp rounded-full mt-0 md:mt-20 lg:mt-0 md:h-4/5 lg:h-full">
+                    <h2 className="text-center text-base md:text-4xl lg:text-base text-white leading-normal font-poppins">
+                      Create a free Zeddpay account.
+                    </h2>
+
+                    <img
+                      src={Stepi}
+                      alt="Mobile phone showing Zeddapp step 1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              {" "}
+              <div className="child bg-blue-900 rounded-lg md:hover:scale-105 ease-out duration-200">
+                <div className="text-center mt-5">
+                  <h1 className="text-3xl text-white md:text-4xl lg:text-2xl leading-normal font-poppins">
+                    STEP 2
+                  </h1>
+                </div>
+                <div className=" ">
+                  <div className="zedapp rounded-full mt-0 md:mt-20 lg:mt-0 md:h-4/5 lg:h-full">
+                    <h2 className="text-center text-base md:text-4xl lg:text-base text-white leading-normal font-poppins">
+                      Fund your wallet with Airtime.
+                    </h2>
+
+                    <img
+                      src={Stepii}
+                      alt="Mobile phone showing Zeddapp step 1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="child bg-blue-900 rounded-lg md:hover:scale-105 ease-out duration-200">
+                <div className="text-center mt-5">
+                  <h1 className="text-3xl text-white md:text-4xl lg:text-2xl leading-normal font-poppins">
+                    STEP 3
+                  </h1>
+                </div>
+                <div className=" ">
+                  <div className="zedapp rounded-full mt-0 md:mt-20 lg:mt-0 md:h-4/5 lg:h-full">
+                    <h2 className="text-center text-base md:text-4xl lg:text-base text-white leading-normal font-poppins">
+                      Start Spending!
+                    </h2>
+                    <img
+                      src={Stepiii}
+                      alt="Mobile phone showing Zeddapp step 1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="steps grid grid-cols-3 gap-7 mt-16">
+          <div className="bg-blue-900 rounded-lg md:hover:scale-105 ease-out duration-200">
+            <div className="text-center mt-5">
+              <h1 className="text-4xl text-white md:text-4xl lg:text-2xl leading-normal font-poppins">
+                STEP 1
+              </h1>
+            </div>
+            <div className=" ">
+              <div className="zedapp rounded-full mt-0 md:mt-20 lg:mt-0 md:h-4/5 lg:h-full">
+                <h2 className="text-center text-4xl md:text-4xl lg:text-base text-white leading-normal font-poppins">
+                  Create a free Zeddpay account.
+                </h2>
+
+                <img src={Stepi} alt="Mobile phone showing Zeddapp step 1" />
+              </div>
+            </div>
+          </div>
+          <div className="bg-blue-900 rounded-lg md:hover:scale-105 ease-out duration-200">
+            <div className="text-center mt-5">
+              <h1 className="text-4xl text-white md:text-4xl lg:text-2xl leading-normal font-poppins">
+                STEP 2
+              </h1>
+            </div>
+            <div className=" ">
+              <div className="zedapp rounded-full mt-0 md:mt-20 lg:mt-0 md:h-4/5 lg:h-full">
+                <h2 className="text-center text-4xl md:text-4xl lg:text-base text-white leading-normal font-poppins">
+                  Fund your wallet with Airtime.
+                </h2>
+
+                <img src={Stepii} alt="Mobile phone showing Zeddapp step 1" />
+              </div>
+            </div>
+          </div>
+          <div className="bg-blue-900 rounded-lg md:hover:scale-105 ease-out duration-200">
+            <div className="text-center mt-5">
+              <h1 className="text-4xl text-white md:text-4xl lg:text-2xl leading-normal font-poppins">
+                STEP 3
+              </h1>
+            </div>
+            <div className=" ">
+              <div className="zedapp rounded-full mt-0 md:mt-20 lg:mt-0 md:h-4/5 lg:h-full">
+                <h2 className="text-center text-4xl md:text-4xl lg:text-base text-white leading-normal font-poppins">
+                  Start Spending!
+                </h2>
+                <img src={Stepiii} alt="Mobile phone showing Zeddapp step 1" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center mt-16 md:mt-28">
+          <Link to="/">
+            <button className="bg-blue-800 justify-center font-poppins border text-white border-white-500 rounded-lg w-60 h-16 text-sm hover:scale-105 ease-out duration-200 ml-0 md:ml-9 lg:m-0">
+              Get Started Now!
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
-    <script
-      dangerouslySetInnerHTML={{
-        __html: `
-    console.log('Plain JavaScript inside Gatsby!');
-`,
-      }}
-    />
   </Layout>
 )
 
