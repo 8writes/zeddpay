@@ -19,7 +19,7 @@ const IndexPage = () => (
             </h1>
 
             <p className="font-poppins text-sm text-gray-500 tracking-wide leading-loose">
-              Pay bills, Buy subscriptions, Pay for online services, and more!{" "}
+              Pay bills, Buy subscriptions, Pay for online services, and more
               <p className="text-blue-700 italic ml-0 md:ml-10 lg:ml-0">
                 All on Zeddpay!
               </p>
@@ -60,8 +60,8 @@ const IndexPage = () => (
                 </div>
                 <div class="mt-3 ml-4 lg:ml-0 md:ml-5">
                   <p class="text-base leading-relaxed text-white text-center">
-                    <a className="text-blue-700">Zeddpay</a> converts your
-                    airtime to zeddcoin within minutes.
+                    <a class="text-blue-800">Zeddpay</a> converts your airtime
+                    to zeddcoin within minutes.
                   </p>
                 </div>
               </div>
@@ -117,8 +117,8 @@ const IndexPage = () => (
 
                 <div class="mt-3 ml-4 lg:ml-0 md:ml-5">
                   <p class="text-base leading-relaxed text-white text-center">
-                    <a className="text-blue-800">Zeddpay</a> offers a 100%
-                    secure and safe transaction process.
+                    <a class="text-blue-800">Zeddpay</a> offers a 100% secure
+                    and safe transaction process.
                   </p>
                 </div>
               </div>
@@ -160,7 +160,6 @@ const IndexPage = () => (
               </div>
             </div>
             <div>
-              {" "}
               <div className="child bg-blue-900 rounded-lg md:hover:scale-105 ease-out duration-200">
                 <div className="text-center mt-5">
                   <h1 className="text-3xl text-white md:text-4xl lg:text-2xl leading-normal font-poppins">
@@ -199,6 +198,24 @@ const IndexPage = () => (
                     />
                   </div>
                 </div>
+              </div>
+            </div>
+            <div>
+              <div className="arrownext">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-10 w-10"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                  />
+                </svg>
               </div>
             </div>
           </div>
@@ -253,7 +270,6 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-
         <div className="flex justify-center mt-16 md:mt-28">
           <Link to="/">
             <button className="bg-blue-800 justify-center font-poppins border text-white border-white-500 rounded-lg w-60 h-16 text-sm hover:scale-105 ease-out duration-200 ml-0 md:ml-9 lg:m-0">
