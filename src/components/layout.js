@@ -26,6 +26,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      
       <div
         className="font-poppins text-slate-600"
         style={{
@@ -37,7 +38,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
 
         <footer className="footer">
-          © {new Date().getFullYear()}, Built by
+          © {new Date().getFullYear()}, Designed by
           {` `}
           <a href="https://emmanuelc.gatsbyjs.io/" target="blank">
             EMMANUELC
