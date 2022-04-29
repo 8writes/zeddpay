@@ -101,7 +101,7 @@ const Header = ({ siteTitle }) => (
               <div className=" ml-10 mb-16 mt-16">
                 <li>
                   <Link to="/">
-                <button className="bg-inherit font-poppins  text-left text-blue-900  w-32 h-12 text-xl">
+                <button className="bg-inherit font-poppins text-left text-blue-900  w-32 h-12 text-xl">
                   About
                 </button>
               </Link>
@@ -115,7 +115,7 @@ const Header = ({ siteTitle }) => (
                 </li>
                 <li>
                 <Link to="/">
-                <button className="bg-inherit font-poppins text-left text-blue-900  w-32 h-12 text-xl">
+                <button className="bg-inherit font-poppins text-left  text-blue-900  w-32 h-12 text-xl">
                  Contact Us
                 </button>
               </Link>
