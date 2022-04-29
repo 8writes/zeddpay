@@ -138,7 +138,25 @@ const IndexPage = () => (
 
         <div className="sliderc">
           <div class="slider mt-10">
-            <div>
+            <div className="">
+               <div className="fade-out">
+              <div className="arrownext">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-10 w-10"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                  />
+                </svg>
+                </div>
+              </div>
               <div className="child bg-blue-900 rounded-lg lg:hover:scale-105 ease-out duration-200">
                 <div className="text-center mt-5">
                   <h1 className="text-3xl text-white md:text-4xl lg:text-2xl leading-normal font-poppins">
@@ -155,6 +173,7 @@ const IndexPage = () => (
                       src={Stepi}
                       alt="Mobile phone showing Zeddapp step 1"
                     />
+                    <div></div>
                   </div>
                 </div>
               </div>
@@ -198,24 +217,6 @@ const IndexPage = () => (
                     />
                   </div>
                 </div>
-              </div>
-            </div>
-            <div>
-              <div className="arrownext">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-10 w-10"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M13 5l7 7-7 7M5 5l7 7-7 7"
-                  />
-                </svg>
               </div>
             </div>
           </div>
