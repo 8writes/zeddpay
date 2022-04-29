@@ -761,7 +761,6 @@ pre tt:after {
 
 .arrownext {
   position: absolute;
-  z-index: 50;
   margin-top: 55%;
   left: 85%;
   color: rgb(203 213 225);
@@ -803,6 +802,7 @@ pre tt:after {
     transform: translateX(-15px);
   }
 }
+
 @keyframes bounceRight {
   0%,
   20%,
@@ -822,3 +822,56 @@ pre tt:after {
   }
 }
 /* /right bounce */
+
+.fade-out{
+   animation: fadeOut ease 6s infinite;
+  -webkit-animation: fadeOut ease 6s infinite;
+  -moz-animation: fadeOut ease 6s infinite;
+  -o-animation: fadeOut ease 6s infinite;
+  -ms-animation: fadeOut ease 6s infinite;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+}
+}
