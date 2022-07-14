@@ -14,19 +14,17 @@ const IndexPage = () => (
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-7 mt-7  md:mt-20 lg:mt-36">
           <div className=" mt-32 text-center md:text-left ml-0 md:ml-5 lg:ml-0">
-            <h1 className="font-poppins text-4xl md:text-4xl lg:text-5xl leading-normal text-blue-900">
+           <h1 className="font-poppins text-3xl leading-normal text-slate-700">
               Make payments with your airtime!
-            </h1>
+            </h1> 
 
-            <p className="font-poppins text-sm text-gray-500 tracking-wide leading-loose">
-              Pay bills, Buy subscriptions, Pay for online services, and more
-              <p className="text-blue-700 italic ml-0 md:ml-10 lg:ml-0">
-                All on Zeddpay!
-              </p>
+            <p className="font-poppins text-1xl sm:text-sm tracking-wide ">
+              Pay your bills, subscriptions, online services on Zeddpay!
             </p>
+  
             <div>
-              <Link to="/">
-                <button className="bg-blue-900 font-poppins border text-white border-white-500 rounded-lg w-32 h-12 text-sm hover:scale-105 ease-out duration-200 ml-0 md:ml-9 lg:m-0">
+               <Link to="/">
+                <button className="sm:bg-slate-700 bg-transparent border-2 border-slate-600 text-slate-700 text-sm font-poppins sm:text-white rounded-lg w-32 h-11 sm:hover:bg-transparent sm:hover:border-2 sm:border-slate-600  sm:hover:text-slate-700 sm:hover:scale-105 ease-out duration-200">
                   Get Started
                 </button>
               </Link>
