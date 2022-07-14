@@ -875,3 +875,31 @@ pre tt:after {
     opacity:0;
 }
 }
+.dropbtn {
+  height: 17px;
+}
+.dropbtn .dropdown ul {
+  padding: 10px;
+  display: none;
+  width: 120px;
+  z-index: 5;
+  visibility: hidden;
+  position: relative;
+  margin: 0;
+}
+.dropbtn:hover .dropdown ul {
+  display: block;
+  visibility: visible;
+}
+
+.dropdown {
+  width: 120px;
+}
+.innerdrop {
+  background-color: white; /* Black background color */
+  box-shadow: 0 5px 8px 0 rgba(124, 124, 124, 0.218);
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 14px;
+  width: 110px;
+}
