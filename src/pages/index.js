@@ -39,13 +39,13 @@ const IndexPage = () => (
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-7 mt-28 md:mt-40">
-          <div class="bg-slate-800 rounded-lg overflow-hidden font-righteous">
+          <div class="bg-slate-700 rounded-lg w-full sm:w-72 h-32 p-5 overflow-hidden">
             <div class="m-5 mb-4 md:mb-3 lg:mb-5">
               <div className="flex flex-nowrap md:flex-wrap">
                 <div class=" mt-5 md:mt-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-10 w-10"
+                    class="h-7 w-7"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="white"
@@ -127,13 +127,13 @@ const IndexPage = () => (
         </div>
 
         <div className="text-center mt-28 md:mt-36">
-          <h1 className="font-poppins text-3xl md:text-5xl lg:text-3xl leading-normal text-blue-900">
-            Get started in 3 easy steps.
-          </h1>
-          <h2 className="text-sm md:text-2xl lg:text-base leading-normal">
-            How to convert your Airtime to Zeddcoin and easily make purchases on
-            Zeddpay!
-          </h2>
+             <h1 className="font-poppins text-3xl text-slate-500">
+          Get started in 3 easy steps.
+        </h1>
+        <h2 className="text-sm leading-normal">
+          How to convert your Airtime to Zeddcoin and easily make purchases on
+          Zeddpay!
+        </h2>
         </div>
 
         <div className="sliderc">
