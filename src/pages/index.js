@@ -33,7 +33,7 @@ const IndexPage = () => (
             </div>
           </div>
 
-          <div className="zedapp bg-blue-900 rounded-full mt-16 md:mt-20 lg:mt-0 h-fit">
+          <div className="zedapp bg-slate-100rounded-lg mt-16 md:mt-20 lg:mt-0 h-fit">
             <img src={Zedappimg} alt="Mobile phone showing Zeddapp" />
           </div>
         </div>
