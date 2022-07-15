@@ -271,7 +271,9 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-      <div class="flex flex-col  sm:flex-row gap-5 sm:gap-14 lg:gap-24 xl:gap-36 m-auto max-w-5xl ">
+     
+      </div>
+ <div class="flex flex-col  sm:flex-row gap-5 sm:gap-14 lg:gap-24 xl:gap-36 m-auto max-w-5xl ">
         <div class="w-32">
           <div class="flex flex-col">
             <div class="w-32">
@@ -352,7 +354,6 @@ const IndexPage = () => (
               </ul>
             </div>
           </div>
-      </div>
       </div>
     </div>
  
