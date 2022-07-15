@@ -14,7 +14,7 @@ const IndexPage = () => (
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-7 mt-7  md:mt-20 lg:mt-36">
           <div className=" mt-32 text-center md:text-left ml-0 md:ml-5 lg:ml-0">
-           <h1 className="font-poppins text-3xl leading-normal text-slate-700">
+           <h1 className="font-poppins text-4xl sm:text-4xl lg:text-5xl leading-normal text-slate-700">
               Make payments with your airtime!
             </h1> 
 
@@ -271,15 +271,92 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-        <div className="flex justify-center mt-16 md:mt-28">
-          <Link to="/">
-            <button className="bg-blue-800 justify-center font-poppins border text-white border-white-500 rounded-lg w-60 h-16 text-sm hover:scale-105 ease-out duration-200 ml-0 md:ml-9 lg:m-0">
-              Get Started Now!
-            </button>
-          </Link>
-        </div>
+      
       </div>
     </div>
+  <div class="fifth-section font-open w-full mt-14 pt-14 mb-14 border-t-2 border-fuchsia-50">
+      <div class="flex flex-col  sm:flex-row gap-5 sm:gap-14 lg:gap-24 xl:gap-36 m-auto max-w-5xl ">
+        <div class="w-32">
+          <div class="flex flex-col">
+            <div class="w-32">
+              <Link to="/">
+                <Zedlogo />
+              </Link>
+            </div>
+            <div>
+             
+            </div>
+          </div>
+        </div>
+       
+          <div class="flex flex-col pt-2">
+            <div>
+              <h4>Product </h4>
+            </div>
+            <div>
+              <ul class="text-xs m-0">
+                <li>
+                  <a href="#">Create Account</a>
+                </li>
+                <li>
+                  <a href="#">Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+       
+          <div class="flex flex-col pt-2">
+            <div>
+              <h4>Company </h4>
+            </div>
+            <div>
+              <ul class="text-xs m-0">
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Career</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex flex-col pt-2">
+            <div>
+              <h4>Legal </h4>
+            </div>
+            <div>
+              <ul class="text-xs m-0">
+                <li>
+                  <a href="#">Terms of Services</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Guidelines</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex flex-col pt-2">
+            <div>
+              <h4>Help </h4>
+            </div>
+            <div>
+              <ul class="text-xs m-0">
+                <li>
+                  <a href="#">Live Chat</a>
+                </li>
+                <li>
+                  <a href="#">Faq</a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
   </Layout>
 )
 
