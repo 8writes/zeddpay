@@ -39,30 +39,30 @@ const IndexPage = () => (
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-7 mt-28 md:mt-40">
-          <div class="bg-slate-700 rounded-lg w-full sm:w-72 h-32 p-5 overflow-hidden">
+          <div class="bg-slate-700 rounded-lg w-72 h-32 p-5 overflow-hidden">
             <div class="m-5 mb-4 md:mb-3 lg:mb-5">
               <div className="flex flex-nowrap md:flex-wrap">
                 <div class=" mt-5 md:mt-0">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-7 w-7"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="white"
-                    stroke-width="2"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-                    />
-                  </svg>
+                   <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-7 w-7"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="white"
+                  stroke-width="2"
+                > 
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                  />
+                </svg>
                 </div>
                 <div class="mt-3 ml-4 lg:ml-0 md:ml-5">
-                  <p class="text-base leading-relaxed text-white text-center">
-                    <a class="text-blue-800">Zeddpay</a> converts your airtime
-                    to zeddcoin within minutes.
-                  </p>
+                   <p class=" text-white text-sm">
+                  <a class="text-slate-400">Zeddpay</a> converts your airtime to
+                  zeddcoin within minutes.
+                </p>
                 </div>
               </div>
             </div>
@@ -273,90 +273,7 @@ const IndexPage = () => (
         </div>
      
       </div>
-  <div class=" font-open w-full mt-14 pt-14 mb-14 border-t-2 border-fuchsia-50">
- <div class="flex flex-col  sm:flex-row gap-5 sm:gap-14 lg:gap-24 xl:gap-36 m-auto max-w-5xl ">
-        <div class="w-32">
-          <div class="flex flex-col">
-            <div class="w-32">
-              <Link to="/">
-                <Zedlogo />
-              </Link>
-            </div>
-            <div>
-             
-            </div>
-          </div>
-        </div>
-       
-          <div class="flex flex-col pt-2">
-            <div>
-              <h4>Product </h4>
-            </div>
-            <div>
-              <ul class="text-xs m-0">
-                <li>
-                  <a href="#">Create Account</a>
-                </li>
-                <li>
-                  <a href="#">Login</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-       
-          <div class="flex flex-col pt-2">
-            <div>
-              <h4>Company </h4>
-            </div>
-            <div>
-              <ul class="text-xs m-0">
-                <li>
-                  <a href="#">About Us</a>
-                </li>
-                <li>
-                  <a href="#">Blog</a>
-                </li>
-                <li>
-                  <a href="#">Career</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="flex flex-col pt-2">
-            <div>
-              <h4>Legal </h4>
-            </div>
-            <div>
-              <ul class="text-xs m-0">
-                <li>
-                  <a href="#">Terms of Services</a>
-                </li>
-                <li>
-                  <a href="#">Privacy Guidelines</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="flex flex-col pt-2">
-            <div>
-              <h4>Help </h4>
-            </div>
-            <div>
-              <ul class="text-xs m-0">
-                <li>
-                  <a href="#">Live Chat</a>
-                </li>
-                <li>
-                  <a href="#">Faq</a>
-                </li>
-                <li>
-                  <a href="#">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-</div>
-
+ 
       </div>
     </div>
  
